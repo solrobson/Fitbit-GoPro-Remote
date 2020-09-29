@@ -1,0 +1,25 @@
+.background {
+  viewport-fill: fb-white;
+}
+
+.hidden {
+  display:none;
+}
+
+#photoMode {
+  fill: fb-yellow;
+  border-color:fb-yellow;
+  border-style: solid;
+  border-width: think;
+}
+
+.application-fill           { fill: fb-yellow; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+#myButton #text {
+  text-buffer: "BUTTON";
+}
+
+img {
+  border: 5px solid #555;
+}

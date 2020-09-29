@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "a2baf371-98e7-4efa-be3a-66db99e0191e",
+    "appType": "app",
+    "appDisplayName": "StarterTest",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "StarterTest"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

@@ -1,0 +1,24 @@
+<svg class="background">
+  <!--<text id="videoMode" class="selected" x="40" y="40" pointer-events="visible">Video</text>
+  <text id="photoMode" class="selected" x="180" y="40" pointer-events="visible">Photo</text>
+  <text id="startRecording" class="selected" x="40" y="100" pointer-events="visible">Record</text>
+  <text id="stopRecording" x="180" y="100" pointer-events="visible">Stop</text>-->
+  <text id="message" x="0" y="140">Super long error messages are agoing to appear in this text for now.</text>
+
+  <use id="photoMode" class="selected" href="#static-image" x="5" y="5" height="100"
+    width="100" pointer-events="visible">
+      <set href="image" attributeName="href" to="camera.png"/>
+    </use>
+  <use id="videoMode" href="#static-image" x="100% - 105" y="5" height="100"
+    width="100" pointer-events="visible">
+      <set href="image" attributeName="href" to="video-roll.png"/>
+    </use>
+  <use id="startRecording" href="#static-image" x="5" y="100%-105" height="100"
+    width="100" pointer-events="visible">
+      <set href="image" attributeName="href" to="play-button.png"/>
+    </use>
+  <use id="stopRecording" href="#static-image" x="100% -105" y="100% - 105" height="100"
+    width="100" pointer-events="visible">
+      <set href="image" attributeName="href" to="pause-button.png"/>
+    </use>
+</svg>
